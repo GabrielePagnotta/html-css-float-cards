@@ -1,22 +1,85 @@
-*{
-    margin:0px 100px;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-h1{
+.title {
     font-family: 'Fredoka One', cursive;
     font-size: 50px;
-    color:#E53170;
+    color: #E53170;
     text-align: center;
-    margin:50px 0px;
+    margin: 50px 0px;
 }
 
-p, header{
-text-align: center;
-font-size:30px;
-font-family: Arial, Helvetica, sans-serif;
-margin-left: 50px;
-margin-right: 50px;
 
-} 
+.text {
+    text-align: center;
+    font-size: 25px;
+    margin: 0% 15%;
+    font-family: 'Abel', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 3% 10%;
+
+}
+
+.box {
+    width: calc(100% / 3 - 10%);
+    height: 110px;
+    float: left;
+    background-color: #0F0E17;
+    margin-left: 7%;
+    display: inline-block;
+
+
+
+
+}
+
+.bot {
+    margin-top: 3%;
+}
+
+img {
+    width: 110px
+}
+
+.box-title {
+
+    color: white;
+    display: inline-table;
+    clear: both;
+    content: "";
+    vertical-align: top;
+    padding-left: 10px;
+    padding-top: 20px;
+
+
+
+}
+
+.one {
+    font-family: 'Fredoka One', cursive;
+}
+
+.two {
+    font family: "fredoka One", em;
+    display: block;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.three {
+    font family: "fredoka One", em;
+    color: #138bd6;
+
+}
+
+.box {
+    box-shadow: 3px 3px 3px #888888;
+}
