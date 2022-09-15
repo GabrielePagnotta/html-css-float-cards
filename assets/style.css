@@ -66,17 +66,17 @@ img {
 }
 
 .two {
-    font family: "fredoka One", em;
-    display: block;
-    padding-left: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    
+    display:block;
+    padding-left:0px;
+    padding-top:5px;
+    padding-bottom:5px;
 
 }
 
 .three {
-    font family: "fredoka One", em;
-    color: #138bd6;
+    font-family: "fredoka One", em;
+    color:#138bd6;
 
 }
 
