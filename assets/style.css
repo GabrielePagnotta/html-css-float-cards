@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* IMPOSTAZIONE TITOLO */
 .title {
     font-family: 'Fredoka One', cursive;
     font-size: 50px;
@@ -12,7 +13,7 @@
     margin: 50px 0px;
 }
 
-
+/* IMPOSTAZIONE PARAGRAFO */
 .text {
     text-align: center;
     font-size: 25px;
@@ -33,13 +34,10 @@
     background-color: #0F0E17;
     margin-left: 7%;
     
-
-
-
-
 }
 
-.bot {
+
+.bottom {
     margin-top: 3%;
 }
 
@@ -47,24 +45,21 @@ img {
     width: 110px
 }
 
-.box-title {
+/* IMPOSTAZIONE PER CONTENUTO CARDS */
+.cards {
 
     color: white;
     display: inline-table;
-    clear: both;
-    content: "";
     vertical-align: top;
     padding-left: 10px;
     padding-top: 20px;
-
-
-
 }
-
+/* FONT NOME */
 .one {
     font-family: 'Fredoka One', cursive;
 }
 
+/* ALLINEAMENTO NOME */
 .two {
     
     display:block;
@@ -74,12 +69,21 @@ img {
 
 }
 
+/* E-MAIL */
 .three {
     font-family: "fredoka One", em;
     color:#138bd6;
 
 }
 
+/* OMBRA */
 .box {
     box-shadow: 3px 3px 3px #888888;
+}
+
+/* CLEARFIX */
+.clearfix::after{
+    clear: both;
+    content: "";
+    display:table;
 }
